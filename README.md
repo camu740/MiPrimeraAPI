@@ -3,7 +3,7 @@
 _Este repositorio tiene como objetivo recopilar la realización de una API con C# y JavaScript como proyecto de 1º de Grado Superior de Desarrollo de Aplicaciones Multiplataforma estudiado en IES Pablo Picasso (Málaga)._
 
 ## 📁 Proyecto realizado 📁
-API en C# utilizada por un frontEnd en JavaScript.
+API en C# utilizada por un frontEnd en HTML, CSS y JavaScript.
 
 ## 👨‍💻 Herramientas utilizadas 👨‍💻
 * IDE: Visual Studio (BackEnd)
