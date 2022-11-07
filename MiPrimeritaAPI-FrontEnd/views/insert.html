@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>FirstAPI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script></head>
+    <body>
+        <div class="jumbotron">
+            <h1>Insert Alumno</h1>
+        </div>
+            <div class="container-sm">
+                <div class="d-flex justify-content-center">
+                <div class="col-8">
+                    <div class="form-group">
+                        <label for="userName">Nombre Alumno:</label>
+                        <input type="text" class="form-control" placeholder="Name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                    <div class="form-group">
+                    <label for="pwd">DNI:</label>
+                    <input type="text" class="form-control" placeholder="00000000X" id="dni" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">PIN:</label>
+                        <input type="password" class="form-control" placeholder="PIN" id="pin" required>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btn-insert">Insert</button>
+                    <div class="alert alert-danger alert-dismissible" style="display:none;" id="error">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>ERROR!</strong> Insert incorrecto.
+                    </div><br/><br/>
+                        <p class ="d-flex flex-row justify-content-center alig-items-center"><label for="welcome">Volver</label></p>
+                        <p class ="d-flex flex-row justify-content-center alig-items-center"><button type="button" class="btn btn-primary" id="btn-volver">Home</button></p>
+                </div>
+            </div>
+            </div>
+        <script src="../js/insert.js"></script>
+    </body>
+</html>
